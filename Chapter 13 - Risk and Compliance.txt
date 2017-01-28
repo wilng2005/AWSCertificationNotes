@@ -1,0 +1,18 @@
+Strong Compliance Governance{
+	1. Take a holistic approach, 
+	   and document all compliance requirements
+
+	2. Design and implement control objectives to 
+	   meet compliance requirements 
+
+	3. Identify and document controls owned by all 
+	   third parties
+
+	4. Verify that all control objectives are met and that
+	   all key controls are designed operating effectively.
+
+}
+
+Evaluating and Integrating AWS Controls{
+	
+}
