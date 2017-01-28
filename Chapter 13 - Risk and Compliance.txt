@@ -14,5 +14,53 @@ Strong Compliance Governance{
 }
 
 Evaluating and Integrating AWS Controls{
+	- Companies request and evaluate third-party attestations
+	  and certifications in order to gain reasonable assurance of the
+	  design and effectiveness of controls.	
+
+	- Specfic Control Definition{
+		SOC1 Type II Report{
+			- SOC1 is an in-depth audit of both design
+			  and operating effectiveness of AWS defined 
+			  control objectives and activities
+			
+			- Type II means that each of the controls defined
+			  in the report are evaluated not only for
+			  adequacy of designed by also tested for
+			  effectiveness by an external auditor.
+		}
+
+		- Fulfils compliance purposes, including Sarbanes-Oxley(SOX)
+		  Section 404, and ISO 27001.
+
+		- Auditors may request for a SOC 1 Type II report in-order
+		  to complete evaluations for their customers.
+
+	}
+
+	- General Control Standard Compliance {
 	
+		- Broad set of control objectives{
+
+			- ISO 27001
+
+			- PCI DSS for credit card related 
+			
+			- FISMA for compliance to Government Agencies
+			
+		}
+	}
+}
+
+AWS Global Regions {
+	
+
+
+
+
+
+
+
+
+
 }
