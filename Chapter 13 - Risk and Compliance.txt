@@ -53,14 +53,24 @@ Evaluating and Integrating AWS Controls{
 }
 
 AWS Global Regions {
+	- Currently, AWS operates 33 AZs in 12 Regions
+}
+
+AWS Risk and Compliance Program{
+	Risk Management{
 	
 
 
+	}
+
+	Control Environment{
 
 
+	}
 
-
-
-
+	Information Security{
+	
+	
+	}
 
 }
