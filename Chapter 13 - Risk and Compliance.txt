@@ -58,19 +58,87 @@ AWS Global Regions {
 
 AWS Risk and Compliance Program{
 	Risk Management{
-	
-
+		Business plan Risk{
+			- Re-evaluated at least twice a year.
+			- Team identify risks and implement controls to
+			  address and eliminate the risk
+		}	
+		Risk Assessments{
+			- Internal and external Risk assessments
+			- Establish information security framework and policies
+			  based on COBIT
+			- Integratd ISO 27001, 27002, AICPA Trust Services 
+			  Principles, PCI DSS v3.1, NIST Pub 800-53, 
+			- Regular application security reviews to access
+			  CIA
+		}
+		
+		Regular scans of public-facing endpoints for vulnerabilities
+		(but do not include customer instances)
+		
+		Independent security firms conduct external vulnerability threat
+		assessments. (These scans are not meant to replace the customer's own
+		vulnerability scans to meet compliance requirements.
+		
+		Customers must request permission to conduct their own vulnerability scans.
 
 	}
-
 	Control Environment{
+		
+		- Comprehensive control environment that consists of policies, processes
+		  and control activities.
 
-
+		- Management is on board.
+		
+		- New-comers are on-boarded properly.
 	}
 
 	Information Security{
-	
+		- Read white papers (-_-" )
 	
 	}
 
+}
+
+AWS Reports, Certifications, and Third-Party Attestations{
+	- CJIS
+	- CSA
+	- CEP
+	- DOD Cloud Security Model (SRG)
+	- FedRAMP, 3PAO, ATOs HHS
+	- Family Educational Rights and Privacy Act (FERPA)
+	- FIPS
+	- FISMA and DoD Information Assurance Certification and Accreditation Process (DIACAP)
+	- Health Insurance Portability and Accountability Act (HIPAA)
+	- IRAP
+	- ISO 9001
+	- ISO 27001
+	- ISO 27017
+	- ISO 27018
+	- ITAR
+	- MPAA
+	- MTCS Tier 3
+	- NIST
+	- PCI DSS Level 1
+	- SOC 1
+	- Soc 2
+	- SOC 3
+
+
+}
+
+Review Questions {
+	1. 123
+	2. 3
+	3. 1
+	4. 1,2,4
+	5. 1
+	6. 4
+	7. 1 x 2
+	8. 1,3
+	9. 2
+	10.3
+	11.2
+	12.4
+	13.3
 }
