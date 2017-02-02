@@ -1,0 +1,48 @@
+Chapter 14 Architecture Best Practices{
+
+	- Design for failure and nothing will fail{
+		- Ensure that the application survives when the underlying physical
+		  hardware fails
+
+		- Introduce Redundancy{
+			- standby redundancy tends to apply to 
+		  	  stateful components such as databases
+			
+			- active redundancy is to distribute load to multiple resources
+			
+		}
+	}
+
+	- Implement Elasticity{
+		- 
+
+
+
+	}
+
+	- Leverage different storage options{
+
+
+	
+	}
+
+	- Build security in every layer {
+
+
+	}
+
+	- Think parallel{
+
+	
+	}
+
+	- Loose coupling sets you free{
+
+
+	}
+
+	- Don't fear constraints{
+
+
+	}
+}
