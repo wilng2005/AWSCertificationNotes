@@ -14,35 +14,126 @@ Chapter 14 Architecture Best Practices{
 	}
 
 	- Implement Elasticity{
-		- 
+		- Vertical Scaling{
+			- Increasing specifications of an individual resource
+			- Eventually will hit a limit
+			- Not always cost-efficient or highly available
+			- Easy to implement and suitable for the short-term
+		}
+
+		- Horizontal Scaling {
+			- Increasing the number of resources
+			- Not suitable for all architectures
+
+			- Stateless Applications {
+				- Compute resources can be added as and when necessary.
+			}
+
+			- Stateless Components {
+				- Use a DB to store session data
 
 
+			}
 
+			- Stateful Components {
+				- Sometimes unavoidable, e.g. DB components, mmorpg games
+				  or legacy applications
+			}
+		}
+		
+		- Deployment Automation {
+			- Automate Your Infra
+			- Bootstrap your instances{
+				- Apply roles and instruct AMI on steps to take afer boot
+			}
+
+			- Benefits{
+				- Recreate environments with minimal effort
+				- Maintain control over cloud-based resources
+				- Reduce human-induced deployment errors
+				- Self-healing, self-discoverable environment more resilient
+				  to hardware failures
+			}
+		}
 	}
 
 	- Leverage different storage options{
+	
 
+		
 
 	
 	}
 
 	- Build security in every layer {
+		- Best Practices {
+			- Inventory your data
+			- Prioritize by value
+			- Apply appropriate level of encryption on data at rest and 
+			  data in transit
+	
+		}
+		- Use AWS Features for Defense in Depth{
+			- Use VPC topology to isolate infra in subnets and security groups
+			- Use AWF to prevent SQL injection
+			- IAM to define granular user rights and policies
+		}
 
+		- Offload Security Responsibility to AWS{
+			
+		}
 
+		- Reduce Privileged Access{
+			- Use tokens over long term access rights
+		}
+
+		- Security as Code{
+			- Write a cloud formation script with golden environment
+		}
+
+		- Real-time auditing {
+			- Use AWS Config Rules, Amazon Inspector, and AWS Trusted Advisor to 
+			  continually monitor state. Use cloud trail to create logs
+			- Use Lambda, or EMR, Elasticsearch  to scan logs
+		}
 	}
 
 	- Think parallel{
-
+		- Leverage parallel processing as much as possible
 	
 	}
 
 	- Loose coupling sets you free{
-
+		- Build an IT system that can be broken into smaller loosely coupled components so that
+		  a change does not cascade to other components
 
 	}
 
 	- Don't fear constraints{
 
 
+	}
+
+	Review Questions {
+		1. 2,5
+		2. 2,3
+		3. 1,5
+		4. 3,4x 1,4
+		5. 1,4,5x,2,4,5
+		6. 1,3,5
+		7. 3
+		8. 1
+		9. 4
+		10.2
+		11.3
+		12.1
+		13.2
+		14.2,3,5
+		15.1,2,5
+		16.2
+		17.1
+		18.2
+		19.1
+		20.3
 	}
 }
